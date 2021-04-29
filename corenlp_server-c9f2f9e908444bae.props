@@ -1,0 +1,10 @@
+annotators = tokenize, ssplit, pos, parse, sentiment
+
+ssplit.isOneSentence = True
+
+timeout = 30000
+
+outputFormat = json
+
+memory = 4G
+
